@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("https://realtime-tracker-2ied.onrender.com/");
 
 
 if (navigator.geolocation) {
